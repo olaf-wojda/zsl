@@ -4,10 +4,10 @@
         switch($_POST['geometric'])
         {
             case 'kwadrat';
-            echo("kwadrat");
+            header("location: ./square.php");
             break;
             case 'prostokat';
-            echo('prostokat');
+            header("location: ./rectangle.php");
             break;
         }
     }
